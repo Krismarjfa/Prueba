@@ -1,0 +1,75 @@
+$bgColor: #f8f6fa;
+$imageSize: 100px;
+
+.bg-color{
+    background: $bgColor;
+    --background: $bgColor;
+}
+
+.bg-light{
+    background: var(--ion-color-light);
+    --background: var(--ion-color-light);
+}
+
+.category-grid{
+    ion-row{
+        flex-wrap: nowrap;
+        overflow-y: scroll;
+        
+        ion-col{
+            ion-thumbnail{
+                height: $imageSize;
+                border-radius: 10px;
+                margin: 0 10px 0 0;
+                overflow: hidden ; 
+                 width: $imageSize;
+            }
+        }
+    }
+}
+
+.list-blog{
+    &.list-md, &.list-ios{
+        background: none;
+    --background: none;
+    }
+    
+    ion-item{
+    
+        border-radius: 15px;
+        margin-bottom: 15px;
+        --padding-start: 0 ;
+        box-shadow: 3px 3px 4px #1414143b;
+        ion-thumbnail{
+            height: 65px;
+            border-radius: 30px;
+            margin: 0 10px 0 0;
+            overflow: hidden ; 
+             width: 65px;
+             
+        }
+    }
+}
+
+.tittle-bold{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tittle-light{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.round-corners-bottom{
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+}
+
+.searchbar-input-container{
+   
+    border-radius: 30px;
+}
+.vertical-padding{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}

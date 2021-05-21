@@ -1,0 +1,141 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="navigateToSchedule()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="bg-color">
+<div class="bg-light vertical-padding ion-padding round-corners-bottom">
+  <div class="tittle-light">Hello Sandra</div>
+  <div class="tittle-bold">Find your specialist</div>
+  <ion-searchbar placeholder="Search" mode="ios"></ion-searchbar>
+</div>
+
+<div class="ion-padding">
+<ion-grid class="ion-no-padding">
+  <ion-row>
+    <ion-col size="6"><h4>Categories</h4></ion-col>
+    
+  </ion-row>
+</ion-grid>
+
+<!--Categorias-->
+
+
+<ion-grid class="ion-no-padding" class="category-grid">
+  <ion-row>
+
+    <ion-col>
+<ion-thumbnail>
+  <img src="../assets/azul.png" >
+</ion-thumbnail>
+    </ion-col>
+
+    <ion-col>
+      <ion-thumbnail>
+        <img src="../assets/babyrosa.jpg" >
+      </ion-thumbnail>
+          </ion-col>
+
+ <ion-col>
+      <ion-thumbnail>
+        <img src="../assets/morado.png" >
+      </ion-thumbnail>
+          </ion-col>
+
+          <ion-col>
+            <ion-thumbnail>
+              <img src="../assets/verde.jpg" >
+            </ion-thumbnail>
+                </ion-col>
+
+                <ion-col>
+                  <ion-thumbnail>
+                    <img src="../assets/nutrirosa.jpg" >
+                  </ion-thumbnail>
+                      </ion-col>
+
+  </ion-row>
+</ion-grid>
+
+
+
+<ion-grid class="ion-no-padding">
+  <ion-row>
+    <ion-col size="6"><h4>Top Doctor</h4></ion-col>
+    
+  </ion-row>
+</ion-grid>
+
+
+
+<!--Lista-->
+
+<ion-list lines="none" class="list-blog">
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="../assets/dra2.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Dra.Alejandra Williams</h2>
+      <p>
+        <ion-icon name="time"></ion-icon> 2 hour ago | <ion-icon name="star-outline"></ion-icon>4.5
+      </p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="../assets/drj.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Dr.Jorge Henriquez</h2>
+      <p>
+        <ion-icon name="time"></ion-icon> 2 hour ago | <ion-icon name="star-outline"></ion-icon>4.5
+      </p>
+    </ion-label>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="../assets/dra.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Dra.Sofía Foster</h2>
+      <p>
+        <ion-icon name="time"></ion-icon> 2 hour ago | <ion-icon name="star-outline"></ion-icon>4.5
+      </p>
+    </ion-label>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="../assets/dr.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h2>Dr.Marco Pérez</h2>
+      <p>
+        <ion-icon name="time"></ion-icon> 2 hour ago | <ion-icon name="star-outline"></ion-icon>4.5
+      </p>
+    </ion-label>
+  </ion-item>
+
+
+
+
+</ion-list>
+
+</div>
+
+</ion-content>
